@@ -11,14 +11,21 @@
 //--- LIMITAÇÕES ---
 
 //A palavra-chave VAR só pode ser usada quando uma variável local é declarada e inicializada na mesma instrução
+// var name = "Maria"; 
+// var name; // Erro 
 
 
 //Não é possível inicializar a variável como NULL 
 
+// var name = null; // Erro 
+
 //Múltiplas variáveis do tipo implícito não podem ser inicializadas na mesma instrução 
 
-//Não podemos alterar o tipo da variável VAR depois de inicializada.
+//  var x = 10, y = 20, z = 30; // Erro
 
+//Não podemos alterar o tipo da variável VAR depois de inicializada.
+// var name = "Maria";
+// name = 10; // Erro
 
 // --- JEITO TIPADO NORMAL ---
 

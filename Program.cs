@@ -229,4 +229,31 @@ if(b.value == 10){
     Console.WriteLine("O valor de b não é 10");
 }
 
+Console.WriteLine("Definindo os identificidores")
+
+//camelCase -> uso para variaveis locais 
+//PascalCase -> uso para classes e metodos 
+//snake_case -> uso para variaveis globais 
+
+
+//Identificadores validos 
+// devem começar com letra ou underscore 
+//podem conter letras, numeros e underscore 
+//não podem conter espaços ou caracteres especiais 
+//não podem ser palavras reservadas 
+
+
+//ex:   
+
+string name = "Vitoria";
+string nomeComplete = "Vitoria Soder";
+int valor = 0
+int _valor = 0
+int valor1=0
+
+int age = 20;
+
+
+
+
 Console.ReadLine();
