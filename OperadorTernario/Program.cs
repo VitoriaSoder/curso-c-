@@ -21,3 +21,16 @@ int numero2 = 10;
 string resultado = numero2 > 5 ? "Maior que 5" : "Menor ou igual a 5";
 
 Console.WriteLine(resultado);
+
+
+//Operadoresa Unitários atuam em um operando em uma expressão ,
+
+//++, —, !, +, - 
+
+
+
+//Os operadores binários atuam em dois operandos em uma expressão.
+
+// &&,||, ≠,>,<, ≥,≤, *=, /=, %=,-=,==,=,*,+.-,/,%*
+
+//O operando ternário utiliza 3 argumentos e avalia uma expressão booleana
