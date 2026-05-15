@@ -50,13 +50,33 @@ Console.WriteLine("Ordem reversa: " + string.Concat(letras?.Reverse()));
 //Usamos o concat para juntar as sequencias de caracteres automaticamente e depois usamos o reverse para inverter a ordem da string
 
 // 6- Marque verdadeiro(V) ou falso(F) para os códigos abaixo:
-// ( ) long resultado = 1.32;
-// ( ) var nome = “Maria”;
-// ( ) string resultado = 100.ToString();
-// ( ) A sequência de escape \n inclui uma nova linha
-// ( ) float f = 5.45;
-// ( ) decimal valor = (decimal) 10.99f;
-// ( ) var status = null;
-// ( ) object o = 12.45m;
-// ( ) string titulo = true.ToString();
-// ( ) A sequencia \t inclui uma tabulação vertical
+// (v) long resultado = 1.32;
+// (v) var nome = “Maria”;
+// (v) string resultado = 100.ToString();
+// (v) A sequência de escape \n inclui uma nova linha
+// (v) float f = 5.45;
+// (v) decimal valor = (decimal) 10.99f;
+// (f) var status = null;
+// (v) object o = 12.45m;
+// (v) string titulo = true.ToString();
+// (v) A sequencia \t inclui uma tabulação vertical
+
+
+//7- Escreva um programa para receber dois valores via teclado do tipo double e a seguir
+//realize as operações de soma, subtração, multiplicação, exponenciação, divisão e módulo
+//exibindo o resultado:
+
+var numero1 = Console.ReadLine("Digite o primeiro número: ");
+var numero2 = Console.ReadLine("Digite o segundo número: ");
+
+// conversão explicita de double para double
+double numero1Double = Convert.ToDouble(numero1);
+double numero2Double = Convert.ToDouble(numero2);
+
+Console.WriteLine("Soma: " + (numero1Double + numero2Double));
+Console.WriteLine("Subtração: " + (numero1Double - numero2Double));
+Console.WriteLine("Multiplicação: " + (numero1Double * numero2Double));
+Console.WriteLine("Exponenciação: " + (Math.Pow(numero1Double, numero2Double)));
+Console.WriteLine("Divisão: " + (numero1Double / numero2Double));
+Console.WriteLine("Módulo: " + (numero1Double % numero2Double));
+
