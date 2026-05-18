@@ -80,3 +80,18 @@ Console.WriteLine("Exponenciação: " + (Math.Pow(numero1Double, numero2Double))
 Console.WriteLine("Divisão: " + (numero1Double / numero2Double));
 Console.WriteLine("Módulo: " + (numero1Double % numero2Double));
 
+
+
+
+ //8 - Faça um programa para calcular o resultado da fórmula de baskara dados os valores de
+// a b e c .
+// Valores : a = 1 , b = 12 e c = -13
+
+
+
+//9- Escreva um programa que receba um nome e uma senha via teclado. Nome é uma string e
+//Senha é um inteiro. Se o nome for igual a ‘admin’ ou ‘maria’ e a senha for igual a ‘123’
+//então exiba a mensagem ‘Login feito com sucesso’ caso contrário exiba a mensagem ‘Login
+//inválido’: (use o operador condicional ternário)
+
+
