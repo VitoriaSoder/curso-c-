@@ -125,3 +125,18 @@ Console.WriteLine(login);
 // (V) Para x= 5 , a expressão !(9 >= x) && x <= 7 || x == 5); retorna false;
 // (V) O operador ?. permite verificar se um objeto é null e evitar o NullReferenceException
 // (V) Qualquer tipo de dado pode ser declarado como anulável com a ajuda do operador "?"
+
+
+//11- Escreva um programa que recebe via teclado dois números inteiros x e y e imprima no
+//console se x é par ou não e se y é par ou não. Use o operador condicional ternário (? :)
+
+
+
+// 12- Crie um programa que receba um numero inteiro x via teclado e calcule e imprima no
+// console o resultado das seguintes operações : (x^2 -> x ao quadrado) (pi = 3.1415)
+// -6 + x * 5
+// (13-2) * x
+// (x + -2) * (20 / x)
+// (12 + x) / (x - 4)
+// 3 x^2 + x + 10
+// pi * x^2
